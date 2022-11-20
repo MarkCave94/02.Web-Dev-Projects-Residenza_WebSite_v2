@@ -1,4 +1,13 @@
-img{
 
-  height: 100px;
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size:3rem;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color:#CFF5E7 ;
 }
