@@ -11,3 +11,12 @@ font-family: 'Montserrat', sans-serif;
 body{
   background-color:#CFF5E7 ;
 }
+
+
+#carouselExampleCaptions .carousel-item img{
+
+object-fit: cover;
+object-position: center;
+max-height: 50vh;
+overflow: hidden;
+}
