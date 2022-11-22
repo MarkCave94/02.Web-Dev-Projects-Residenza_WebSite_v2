@@ -1,4 +1,13 @@
 
+
+title{
+
+  font-size: large;
+
+}
+
+
+
 h2 {
 font-family: 'Montserrat', sans-serif;
 font-size:3rem;
@@ -10,6 +19,7 @@ font-family: 'Montserrat', sans-serif;
 
 body{
   background-color:#CFF5E7 ;
+  padding-top:3%
 }
 
 
@@ -20,3 +30,27 @@ object-position: center;
 max-height: 50vh;
 overflow: hidden;
 }
+
+
+.container-fluid{
+
+padding: 3% 7%;
+
+}
+
+
+
+.container-fluid_custom{
+
+  padding: 3% 7%;
+  
+  }
+
+
+  .container-fluid_custom2{
+
+    padding: 10% 10% 10% 10%;
+    
+    }
+  
+ 
