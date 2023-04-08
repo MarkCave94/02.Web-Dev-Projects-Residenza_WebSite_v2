@@ -26,11 +26,11 @@
   <nav class="navbar navbar-expand-lg light shadow-5-strong"  >
     <div class="container-fluid"   >
       <a class="navbar-brand" href="#" style="color: black;" >
-       <img src="immagini/elder-home-low-resolution-color-logo_ritagliata_v2.png"   class="d-inline-block align-top" alt="Casa riposo anziani Cave roma">
+       <img src="immagini/elder-home-low-resolution-color-logo_ritagliata_v2.png"   class="d-inline-block align-top" alt="Casa riposo anziani Cave Roma">
       <!--<strong >Residenza San Giuseppe</strong>--> 
       </a>
       <a class="navbar-brand" href="#">
-        <link rel='icon' href='immagini/residenza-san-giuseppe-website-favicon-color.png' type='image/x-icon'>
+        <link rel='icon' href='immagini/residenza-san-giuseppe-website-favicon-color.png' type='image/x-icon' alt="Casa riposo anziani Cave Roma">
       </a>
       <!--<a class="navbar-brand" href="#">Residenza San Giuseppe</a>-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,26 +42,26 @@
             <a class="nav-link active" aria-current="page" href="#LASTRUTTURA" style="color: #003E5C;">La Struttura</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #003E5C;">Dove Trovarci</a>
+            <a class="nav-link" href="#DOVETROVARCI" style="color: #003E5C;">Dove Trovarci</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #003E5C;">
               Servizi
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#" >I Servizi Offerti</a></li>
-              <li><a class="dropdown-item" href="#" >Servizi alla persona</a></li>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="#SERVIZI" >I Servizi Offerti</a></li>
+              <!--<li><a class="dropdown-item" href="#" >Servizi alla persona</a></li>-->
               <!--  <li><hr class="dropdown-divider"></li> -->
-              <li><a class="dropdown-item" href="#" >Cura dell'ospite</a></li>
+              <!--<li><a class="dropdown-item" href="#" >Cura dell'ospite</a></li>-->
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #003E5C;">Contatti</a>
+            <a class="nav-link" href="#CONTATTI" style="color: #003E5C;">Contatti</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #003E5C;">Chi Siamo </a>
+            <a class="nav-link" href="#CHISIAMO" style="color: #003E5C;">Chi Siamo </a>
           </li>
 
 
@@ -72,7 +72,8 @@
           </form>-->
         
           <form class="d-flex justify-content-start" >
-            <button class="btn btn-outline-success me-2 btn-light " type="button"><i class="fa-solid fa-phone"></i> Contattaci</button>
+            
+            <button   href="#CONTATTI" class="btn btn-outline-success me-2 btn-light "  type="button" onclick=" vai_ai_contatti()"><i class="fa-solid fa-phone"></i> Contattaci</button>  
             
           </form>
 
@@ -88,7 +89,12 @@
 
 
 
-
+  <script>
+    function vai_ai_contatti()
+    {
+         location.href = "#CONTATTI";
+    } 
+    </script>
 
 
 
@@ -257,7 +263,7 @@
 </section>
 
 
-<section  style="padding-bottom: 10%;">
+<section  style="padding-bottom: 10%;" id="CHISIAMO">
  
  
   <div class="container text-center ">
@@ -491,7 +497,7 @@
 
 
 
-<section>
+<section id="SERVIZI">
 
   <section>
     <div class="container-fluid_center_text text-center">
@@ -588,7 +594,7 @@
 
 
 
-  <section>
+  <section id="CONTATTI">
     <div class="container-fluid_center_text text-center">
      
       <h1 style="color: #003E5C"> Contatti <h1>
@@ -650,9 +656,9 @@
 
                 </div>
 
-               <div class="col-md-4 col-sm-12 col-xs-12">
+               <div class="col-md-4 col-sm-12 col-xs-12 ">
 
-                  <div class="map-area">
+                  <div class="map-area" id="DOVETROVARCI" >
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.4460165526502!2d12.931627315736366!3d41.818693077108364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f877d66047bf9%3A0x292c4cd4ab298c91!2sViale%20Pio%20XII%2C%20108%2C%2000033%20Cave%20RM!5e0!3m2!1sit!2sit!4v1670501295461!5m2!1sit!2sit"
                      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
